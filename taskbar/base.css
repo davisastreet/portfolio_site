@@ -1,0 +1,32 @@
+@import url('https://fonts.google.com/specimen/Source+Code+Pro');
+
+body
+{
+        background-color: #EC94BF; 
+        align-items: center;      
+}
+
+nav ul {
+    font-family: "Source Code Pro";
+    color: #F0F1FF;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    display: block;
+    list-style: none;
+    text-align: center;
+ }
+ 
+nav ul li 
+{
+    
+    display: inline-block;
+    color: #F0F1FF;
+ }
+
+li
+{
+    display: inline;
+    align-items: center;
+}
