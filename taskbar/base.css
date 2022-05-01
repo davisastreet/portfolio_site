@@ -2,7 +2,7 @@
 /* palette */
 /* https://coolors.co/palette/151633-2a2c66-3f4299-696eff-f8acff-f0f1ff */
 
-
+* {box-sizing: border-box}
 
 body
 {
@@ -10,78 +10,31 @@ body
     font-family: 'Source Code Pro';
     margin: 0;
     padding: 0;  
-    
-}
-
-div nav
-{
-    margin: center;
-    align-content: center;
-    flex-flow: row nowrap;
+    text-align: center;
     justify-content: space-evenly;
 }
 
-ul 
+.navbar
 {
-    list-style-type: none;
-    display: block;
-    background-color: #696EFF;
+    width: 100%;
+    align-content: center;
+    justify-content: space-evenly;
+    overflow: auto;
 }
   
-li 
+.navbar a 
 {
     float: left;
+    text-align: center;
+    font-family: 'Source Code Pro';
     display: block;
-}
-  
-li a 
-{
-    font-family: 'Source Code Pro';
-    display: flex;
     color: #F0F1FF;
-    align-content: left;
-    text-align: center;
-    padding: 0;
     text-decoration: none;
+    width: 33%;
     font-size: 40pt;   
 }
 
-li b
-{
-    font-family: 'Source Code Pro';
-    display: flex;
-    color: #F0F1FF;
-    align-content: center;
-    text-align: center;
-    padding: 0;
-    text-decoration: none;
-    font-size: 40pt;   
-}
-
-li c
-{
-    font-family: 'Source Code Pro';
-    display: flex;
-    color: #F0F1FF;
-    align-content: left;
-    text-align: right;
-    padding: 0;
-    text-decoration: none;
-    font-size: 40pt;   
-}
-
-  
-li a:hover 
-{
-    color: #696EFF;
-}
-
-li b:hover 
-{
-    color: #696EFF;
-}
-
-li c:hover 
+.navbar a:hover 
 {
     color: #696EFF;
 }
