@@ -4,14 +4,16 @@
 
 * {box-sizing: border-box}
 
+html 
+{
+    scroll-behavior: smooth;
+}
+
 body
 {
     background-color: #2A2C66; 
-    font-family: 'Source Code Pro';
-    margin: 0;
-    padding: 0;  
+    font-family: 'Source Code Pro'; 
     text-align: center;
-    justify-content: space-evenly;
 }
 
 .navbar
@@ -30,8 +32,19 @@ body
     display: block;
     color: #F0F1FF;
     text-decoration: none;
-    width: 33%;
+    width: 33.333%;
     font-size: 40pt;   
+}
+
+.about
+{
+    color: #F0F1FF;
+    
+}
+
+.about a
+{
+    font-size: 80;
 }
 
 .navbar a:hover 
